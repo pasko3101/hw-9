@@ -33,7 +33,7 @@ body {
     content: "";
     display: block;
     clear: both;
-  }
+}
 .hdr__list {
     width: 1110px;
     margin: 0 auto;
@@ -114,19 +114,13 @@ body {
 }
 .bg__clr {
     background-color: #F13C6E;
-}
-.bg__img {
-    width: 1250px;
-    background-image: url(../img/Rectangle\ .jpg);
-    margin: 0 auto;
+    background-image: url(../img/chair1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 .bg__tab {
     width: 1110px;
     margin: 0 auto;
-}
-.bg__text {
-    width: 308px;
-    text-align: left;
 }
 .title {
     font-weight: 700;
@@ -138,6 +132,8 @@ body {
     padding-top: 190px;
 }
 .tagline {
+    width: 308px;
+    text-align: left;
     font-size: 14px;
     line-height: 20px;
     color: #FFF;
@@ -160,11 +156,218 @@ body {
 }
 .body {
     width: 1110px;
-    margin: 80px auto 100px;
+    margin: 80px auto;
 }
 .body__title {
+    text-align: left;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #000000;
+    color: #000;
+    margin-bottom: 38px;
+}
+.body__card {
+    display: inline-block;
+    width: 255px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 100px;
+}
+.body__card + .body__card {
+    margin-left: 30px;
+}
+.body__card__title {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    margin: 20px 30px;
+  }
+.body__card__price {
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000;
+    margin-bottom: 20px;
+}
+.body__card__btn {
+    margin: 0 auto;
+}
+.body__visit {
+    display: inline-block;
+    width: 540px;
+    background-color: #F13C6E;
+    padding: 35px 45px 35px 40px;
+    margin-left: 0;
+}
+.body__visit + .body__visit {
+    margin-left: 30px;
+}
+.body__visit__title {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+.visit__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF;
+    margin: 0 0 22px 0;
+    text-align: left;
+}
+.visit__tagline {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+}
+.visit__email {
+    width: 225px;
+    border: 0;
+    border-radius: 17px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 25px;
+    padding: 9px 25px;
+}
+.visit__email::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+.body__visit__img {
+    display: inline-block;
+    text-align: right;
+    padding: 17px 0;
+}
+.rght {
+    width: 225px;
+}
+.rght__btn {
+    width: 170px;
+    margin: 25px 0 0 0;
+    padding: 7px 25px;
+}
+.brands {
+    background-color: #FFF;
+    margin: 100px auto 80px;
+}
+.brands__box {
+    display: inline-block;
+    width: 277px;
+    padding: 35px 0;
+    border: 1px solid #EFEFEF;
+}
+.brands__box:nth-child(even) {    
+    width: 278px;
+}
+.brands__btn {
+    cursor: pointer;
+}
+.look {
+    margin-bottom: 0;
+}
+.ftr {
+    background-color: #FFF;
+    font-size: 0;
+}
+.ftr__content {
+    width: 1110px;
+    margin: 0 auto;
+}
+.ftr__nav__conteyner {
+    display: inline-block;
+    width: 255px;
+    padding: 60px 0;
+}
+.ftr__nav__name {
+    width: 99px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000;
+    text-align: left;
+}
+.ftr__nav__name::after {
+    content: "";
+    display: block;
+    width: 255px;
+    height: 1px;
+    background-color: #EFEFEF;
+    margin: 30px auto;
+}
+.ftr__nav__content {
+    text-align: left;
+}
+.ftr__nav__text {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+.ftr__nav__conteyner + .ftr__nav__conteyner {
+    margin-left: 30px;
+}
+.border {
+    border: 1px solid #EFEFEF;
+}
+.socias__logo {
+    width: 45px;
+    height: 45px;    
+    font-size: 16px;
+    border: 2px solid #F13C6E;
+    border-radius: 22px;
+    margin-top: 37px;
+}
+.socias__logo:hover {
+    box-shadow: 0 0 15px 0 #f7aac0;
+    transition: all 0.15s linear;
+}
+.youtube {
+    margin: 12px 0 0 1px ;
+}
+.vk {
+    margin-top: 12px;
+}
+.facebooK {
+    margin-top: 10px;
+}
+.instagram {
+    margin-top: 9px;
+}
+.socias__logo + .socias__logo {
+    margin-left: 20px;
+}
+.back {
+    margin: 40px 0 40px 40px;
+}
+.ftr__last {
+    background-color: #efefef;
+}
+.ftr__last__content {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.best__all__shop {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+.best__all__shop + .best__all__shop {
+    margin-left: 5px;
+}
+.politic {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
 }
