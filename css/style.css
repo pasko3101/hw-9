@@ -260,17 +260,15 @@ body {
     background-color: #FFF;
     margin: 100px auto 80px;
 }
-.brands__box {
+.brands__btn {
     display: inline-block;
     width: 277px;
     padding: 35px 0;
-    border: 1px solid #EFEFEF;
-}
-.brands__box:nth-child(even) {    
-    width: 278px;
-}
-.brands__btn {
+    border: 1px solid #EFEFEF;    
     cursor: pointer;
+}
+.brands__btn:nth-child(even) {    
+    width: 278px;
 }
 .look {
     margin-bottom: 0;
