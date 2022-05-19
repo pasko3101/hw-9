@@ -151,7 +151,7 @@ body {
 }
 .ttl:hover {
     color: #f7aac0;
-    box-shadow: 0 0 10px 0 #f7aac0;
+    box-shadow: 0 0 10px 0 #ff7ca1;
     transition: all 0.15s linear;
 }
 .body {
@@ -197,6 +197,7 @@ body {
     margin-bottom: 20px;
 }
 .body__card__btn {
+    border: 0;
     margin: 0 auto;
 }
 .body__visit {
@@ -239,8 +240,6 @@ body {
     padding: 9px 25px;
 }
 .visit__email::placeholder {
-    font-size: 14px;
-    line-height: 16px;
     color: #C4C4C4;
 }
 .body__visit__img {
